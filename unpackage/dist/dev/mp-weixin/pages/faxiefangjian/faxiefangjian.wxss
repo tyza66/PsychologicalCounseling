@@ -1,0 +1,54 @@
+
+.bg-set{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+	background: url(/static/yewai.png);
+	background-repeat: no-repeat ;
+	background-size: cover;
+    z-index: -1;
+}
+.win{
+	position: fixed;
+	width: 500rpx;
+	height: 500rpx;
+	left: 125rpx;
+	top: 300rpx;
+	border-radius: 75rpx;
+	border: #000000 solid 1rpx;
+	z-index: 10;
+}
+.win .text{
+	width: 500rpx;
+	margin-top: 50rpx;
+	text-align: center;
+	font-size: 75rpx;
+	color: red;
+}
+.butt{
+	width: 100%;
+	height: 120rpx;
+	border-radius: 75rpx;
+	border: #000000 solid 1rpx;
+}
+.butt ._p{
+	text-align: center;
+	font-size: 100rpx;
+	margin-top: -10rpx;
+}
+.guai{
+	position: fixed;
+	width: 200rpx;
+	height: 250rpx;
+}
+.guai .guai1-0{ 
+	height: 30rpx;
+	background: red;
+}
+.guai .guai1-1{
+	width: 200rpx;
+	height: 200rpx;
+}
+

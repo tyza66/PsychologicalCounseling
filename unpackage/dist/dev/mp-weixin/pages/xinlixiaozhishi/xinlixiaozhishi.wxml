@@ -1,0 +1,1 @@
+<view><view class="bg-set"></view><view class="body"><view class="title _h1">心理小知识</view><view class="xuan"><block wx:for="{{ce}}" wx:for-item="one" wx:for-index="__i0__"><view data-event-opts="{{[['tap',[['go',['$0'],[[['ce','',__i0__]]]]]]]}}" class="btt" bindtap="__e"><view class="_p">{{one}}</view></view></block></view></view></view>

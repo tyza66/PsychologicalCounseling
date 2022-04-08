@@ -1,0 +1,324 @@
+
+view,
+label,
+swiper-item,
+scroll-view {
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -webkit-flex-direction:column;
+          flex-direction:column;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+          flex-grow: 0;
+  -webkit-flex-basis: auto;
+          flex-basis: auto;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+          align-items: stretch;
+  -webkit-align-content: flex-start;
+          align-content: flex-start;
+}
+view,
+image,
+input,
+scroll-view,
+swiper,
+swiper-item,
+text,
+textarea,
+video {
+  position: relative;
+  border: 0px solid #000000;
+  box-sizing: border-box;
+}
+swiper-item {
+  position: absolute;
+}
+button {
+  margin: 0;
+}
+
+
+.body{
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	width: 600rpx;
+	height: 780rpx;
+	background: rgba(236,236,236,0.5);
+	border-radius: 75rpx;
+	z-index: 100;
+}
+.mess{
+	width: 550rpx;
+	height: 640rpx;
+	left: 0rpx;
+}
+.messro{
+	width: 500rpx;
+	height: 640rpx;
+	left: 70rpx;
+}
+.messro-in{
+	width: 500rpx;
+}
+.send{
+	position: absolute;
+	width: 530rpx;
+	height: 100rpx;
+	top: 650rpx;
+	left: 35rpx;
+	border-radius: 75rpx;
+	border: #000000 solid 1px;
+}
+.in{
+	position: absolute;
+	width: 350rpx;
+	height: 100rpx;
+	margin-left: 20rpx;
+	font-size: 45rpx;
+}
+.sendout{
+	position: absolute;
+	width: 150rpx;
+	height: 90rpx;
+	border-radius: 75rpx;
+	left: 375rpx;
+	top: 5rpx;
+	background: rgba(18,43,237,0.8);
+}
+.FA{
+	width: 150rpx;
+	height: 90rpx;
+	margin-top: 20rpx;
+	font-size: 45rpx;
+	text-align: center;
+}
+.info{
+	margin-top: 17rpx;
+	margin-left: 11rpx;
+}
+.m1{
+	position: relative;
+	width: 500rpx;
+	height: 88rpx;
+	left: 30rpx;
+}
+.m1 .bian{
+	position: absolute;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	left: -9rpx;
+}
+.m1 .ball{
+	position: absolute;
+	width: 200rpx;
+	height: 80rpx;
+	top: 0rpx;
+	left: 22rpx;
+	background: #FFFFFF;
+	border-radius: 15rpx;
+}
+.m1-1{
+	position: relative;
+	width: 500rpx;
+	height: 88rpx;
+	left: 30rpx;
+}
+.m1-1 .bian{
+	position: absolute;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	left: -9rpx;
+}
+.m1-1 .ball{
+	position: absolute;
+	width: 300rpx;
+	height: 80rpx;
+	top: 0rpx;
+	left: 22rpx;
+	background: #FFFFFF;
+	border-radius: 15rpx;
+}
+.m1-2{
+	position: relative;
+	width: 500rpx;
+	height: 88rpx;
+	left: 30rpx;
+}
+.m1-2 .bian{
+	position: absolute;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	left: -9rpx;
+}
+.m1-2 .ball{
+	position: absolute;
+	width: 400rpx;
+	height: 80rpx;
+	top: 0rpx;
+	left: 22rpx;
+	background: #FFFFFF;
+	border-radius: 15rpx;
+}
+.m1-3{
+	position: relative;
+	width: 500rpx;
+	height: 128rpx;
+	left: 30rpx;
+}
+.m1-3 .bian{
+	position: absolute;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	left: -9rpx;
+}
+.m1-3 .ball{
+	position: absolute;
+	width: 400rpx;
+	height: 120rpx;
+	top: 0rpx;
+	left: 22rpx;
+	background: #FFFFFF;
+	border-radius: 15rpx;
+}
+.m1-4{
+	position: relative;
+	width: 500rpx;
+	height: 168rpx;
+	left: 30rpx;
+}
+.m1-4 .bian{
+	position: absolute;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	left: -9rpx;
+}
+.m1-4 .ball{
+	position: absolute;
+	width: 400rpx;
+	height: 160rpx;
+	top: 0rpx;
+	left: 22rpx;
+	background: #FFFFFF;
+	border-radius: 15rpx;
+}
+.m2{
+	position: relative;
+	width: 500rpx;
+	height: 88rpx;
+}
+.m2 .bian{
+	position: relative;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	left: 425rpx;
+}
+.m2 .ball{
+	position: absolute;
+	width: 200rpx;
+	height: 80rpx;
+	top: 0rpx;
+	left: 230rpx;
+	background: #4CD964;
+	border-radius: 15rpx;
+}
+.m2-1{
+	position: relative;
+	width: 500rpx;
+	height: 88rpx;
+}
+.m2-1 .bian{
+	position: relative;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	left: 425rpx;
+}
+.m2-1 .ball{
+	position: absolute;
+	width: 300rpx;
+	height: 80rpx;
+	top: 0rpx;
+	left: 130rpx;
+	background: #4CD964;
+	border-radius: 15rpx;
+}
+.m2-2{
+	position: relative;
+	width: 500rpx;
+	height: 88rpx;
+}
+.m2-2 .bian{
+	position: relative;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	left: 425rpx;
+}
+.m2-2 .ball{
+	position: absolute;
+	width: 400rpx;
+	height: 80rpx;
+	top: 0rpx;
+	left: 30rpx;
+	background: #4CD964;
+	border-radius: 15rpx;
+}
+.m2-3{
+	position: relative;
+	width: 500rpx;
+	height: 128rpx;
+}
+.m2-3 .bian{
+	position: relative;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	left: 425rpx;
+}
+.m2-3 .ball{
+	position: absolute;
+	width: 400rpx;
+	height: 120rpx;
+	top: 0rpx;
+	left: 30rpx;
+	background: #4CD964;
+	border-radius: 15rpx;
+}
+.m2-4{
+	position: relative;
+	width: 500rpx;
+	height: 168rpx;
+}
+.m2-4 .bian{
+	position: relative;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	left: 425rpx;
+}
+.m2-4 .ball{
+	position: absolute;
+	width: 400rpx;
+	height: 160rpx;
+	top: 0rpx;
+	left: 30rpx;
+	background: #4CD964;
+	border-radius: 15rpx;
+}
+

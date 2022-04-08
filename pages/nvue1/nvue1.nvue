@@ -1,0 +1,137 @@
+<template>
+	<view>
+		<view class="body">
+			<view :class="room1" @click="r1"><text class="tit">{{a}}</text></view>
+			<view :class="room2" @click="r2"><text class="tit">{{b}}</text></view>
+			<view :class="room3" @click="r3"><text class="tit">{{c}}</text></view>
+			<view :class="room4" @click="r4"><text class="tit">{{d}}</text></view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				room1: "room1",
+				room2: "room2",
+				room3: "room3",
+				room4: "room4",
+				a: "灵魂\n速配",
+				b: "专项\n咨询",
+				c: "发泄\n房间",
+				d: "同城\n匹配"
+			}
+		},
+		methods: {
+			r1() {
+				this.room1 = "room1-1";
+				this.timer = setTimeout(()=>{
+					this.room1 = "room1";
+					uni.navigateTo({
+						url:"../xinlizixun1/xinlizixun1"
+					});	
+					},100);
+			},
+			r2() {
+				this.room2 = "room2-1";
+				this.timer = setTimeout(()=>{
+					this.room2 = "room2";
+					uni.navigateTo({
+						url:"../zhuanxiangzixun/zhuanxiangzixun"
+					});	
+					},100);
+			},
+			r3() {
+				this.room3 = "room3-1";
+				this.timer = setTimeout(()=>{
+					this.room3 = "room3";
+					uni.navigateTo({
+						url:"../faxiefangjian/faxiefangjian"
+					});	
+					},100);
+			},
+			r4() {
+				this.room4 = "room4-1";
+				this.timer = setTimeout(()=>{
+					this.room4 = "room4";
+					uni.navigateTo({
+						url:"../xinlizixun1/xinlizixun1"
+					});	
+					},100);
+			}
+		}
+	}
+</script>
+
+<style>
+	
+	.body{
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 500rpx;
+		height: 400rpx;
+		z-index: 100;
+	}
+	.room1{
+		width: 240rpx;
+		height: 190rpx;
+		border-radius: 75rpx;
+		background-color: rgba(6,247,9,0.6);
+		left: 0rpx;
+	}
+	.room1-1{
+		width: 240rpx;
+		height: 190rpx;
+		border-radius: 75rpx;
+		left: 0rpx;
+	}
+	.room2{
+		width: 240rpx;
+		height: 190rpx;
+		left: 20rpx;
+		border-radius: 75rpx;
+		background-color: rgba(226,225,30,0.6);
+	}
+	.room2-1{
+		width: 240rpx;
+		height: 190rpx;
+		left: 20rpx;
+		border-radius: 75rpx;
+	}
+	.room3{
+		width: 240rpx;
+		height: 190rpx;
+		left: 0rpx;
+		top: 20rpx;
+		border-radius: 75rpx;
+		background-color: rgba(85,101,170,0.6);
+	}
+	.room3-1{
+		width: 240rpx;
+		height: 190rpx;
+		left: 0rpx;
+		top: 20rpx;
+		border-radius: 75rpx;
+	}
+	.room4{
+		width: 240rpx;
+		height: 190rpx;
+		left: 20rpx;
+		top: 20rpx;
+		background-color: rgba(116,60,196,0.6);
+		border-radius: 75rpx;
+	}
+	.room4-1{
+		width: 240rpx;
+		height: 190rpx;
+		left: 20rpx;
+		top: 20rpx;
+		border-radius: 75rpx;
+	}
+	.tit{
+		font-size: 70rpx;
+		margin-left: 50rpx;
+		margin-top: 10rpx;
+	}
+</style>

@@ -1,0 +1,119 @@
+
+view,
+label,
+swiper-item,
+scroll-view {
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -webkit-flex-direction:column;
+          flex-direction:column;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+          flex-grow: 0;
+  -webkit-flex-basis: auto;
+          flex-basis: auto;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+          align-items: stretch;
+  -webkit-align-content: flex-start;
+          align-content: flex-start;
+}
+view,
+image,
+input,
+scroll-view,
+swiper,
+swiper-item,
+text,
+textarea,
+video {
+  position: relative;
+  border: 0px solid #000000;
+  box-sizing: border-box;
+}
+swiper-item {
+  position: absolute;
+}
+button {
+  margin: 0;
+}
+
+
+.body{
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	width: 500rpx;
+	height: 400rpx;
+	z-index: 100;
+}
+.room1{
+	width: 240rpx;
+	height: 190rpx;
+	border-radius: 75rpx;
+	background-color: rgba(6,247,9,0.6);
+	left: 0rpx;
+}
+.room1-1{
+	width: 240rpx;
+	height: 190rpx;
+	border-radius: 75rpx;
+	left: 0rpx;
+}
+.room2{
+	width: 240rpx;
+	height: 190rpx;
+	left: 20rpx;
+	border-radius: 75rpx;
+	background-color: rgba(226,225,30,0.6);
+}
+.room2-1{
+	width: 240rpx;
+	height: 190rpx;
+	left: 20rpx;
+	border-radius: 75rpx;
+}
+.room3{
+	width: 240rpx;
+	height: 190rpx;
+	left: 0rpx;
+	top: 20rpx;
+	border-radius: 75rpx;
+	background-color: rgba(85,101,170,0.6);
+}
+.room3-1{
+	width: 240rpx;
+	height: 190rpx;
+	left: 0rpx;
+	top: 20rpx;
+	border-radius: 75rpx;
+}
+.room4{
+	width: 240rpx;
+	height: 190rpx;
+	left: 20rpx;
+	top: 20rpx;
+	border-radius: 75rpx;
+	background-color: rgba(116,60,196,0.6);
+}
+.room4-1{
+	width: 240rpx;
+	height: 190rpx;
+	left: 20rpx;
+	top: 20rpx;
+	border-radius: 75rpx;
+}
+.tit{
+	font-size: 70rpx;
+	margin-left: 50rpx;
+	margin-top: 10rpx;
+}
+

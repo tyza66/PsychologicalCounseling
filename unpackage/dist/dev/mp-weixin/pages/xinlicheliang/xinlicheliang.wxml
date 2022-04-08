@@ -1,0 +1,1 @@
+<view><view class="bg-set"></view><view class="body"><view class="title _h1">心理小测试</view><view class="xuan"><block wx:for="{{ce}}" wx:for-item="one" wx:for-index="__i0__"><view class="btt"><view class="_p">{{one}}</view></view></block></view></view></view>

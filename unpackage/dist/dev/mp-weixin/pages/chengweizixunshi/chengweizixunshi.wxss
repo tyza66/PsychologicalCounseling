@@ -1,0 +1,21 @@
+
+.bg-set{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(/static/zhaomu.png);
+	background-repeat: no-repeat ;
+	background-size: cover;
+    z-index: -1;
+}
+.title{
+	text-align: center;
+	margin-top: 100rpx;
+}
+.body ._p{
+	font-size: 45rpx;
+	margin-left: 40rpx;
+}
+

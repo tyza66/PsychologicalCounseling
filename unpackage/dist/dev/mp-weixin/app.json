@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/xinlicheliang/xinlicheliang",
+    "pages/xinlizixun/xinlizixun",
+    "pages/xinlizixun1/xinlizixun1",
+    "pages/zhuanxiangzixun/zhuanxiangzixun",
+    "pages/faxiefangjian/faxiefangjian",
+    "pages/nvue1/nvue1",
+    "pages/nvue2/nvue2",
+    "pages/zhengzhuangzipingliangbiao/zhengzhuangzipingliangbiao",
+    "pages/xinlixiaozhishi/xinlixiaozhishi",
+    "pages/zhishi/zhishi",
+    "pages/dajiaoshi/dajiaoshi",
+    "pages/chengweizixunshi/chengweizixunshi",
+    "pages/shitingxiaowu/shitingxiaowu",
+    "pages/yindao/yindao"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {}
+}

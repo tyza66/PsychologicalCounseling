@@ -1,0 +1,72 @@
+
+.bg-set{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(/static/20210528091649.jpg);
+	background-repeat: no-repeat ;
+	background-size: cover;
+    z-index: -1;
+}
+.body{
+	position: relative;
+	width: 700rpx;
+	height: 1000rpx;
+	top: 150rpx;
+	left: 25rpx;
+	background: rgba(123,132,129,0.6);
+	border-radius: 75rpx;
+}
+.mess{
+	position: absolute;
+	width: 680rpx;
+	height: 840rpx;
+	left: 10rpx;
+	top:20rpx;
+}
+.mess-in{
+	width: 680rpx;
+}
+.item{
+	width: 680rpx;
+	border-radius: 35rpx;
+	margin-bottom: 10rpx;
+	background: rgba(70,213,43,0.7);
+}
+.item ._p{
+	width: 650rpx;
+	margin-left: 15rpx;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden;
+}
+.in{
+	position: absolute;
+	width: 680rpx;
+	height: 100rpx;
+	top: 860rpx;
+	left: 10rpx;
+	border: #000000 solid 1rpx;
+}
+.inp{
+	width: 680rpx;
+	height: 100rpx;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden;
+}
+.out{
+	position: absolute;
+	width: 75rpx;
+	height: 50rpx;
+	top: 50rpx;
+	left: 605rpx;
+	background: #007AFF;
+}
+.out ._p{
+	margin-top: 10rpx;
+	text-align: center;
+}
+

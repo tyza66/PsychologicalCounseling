@@ -1,0 +1,185 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/xinlicheliang/xinlicheliang",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/xinlizixun/xinlizixun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				 "app-plus": {  
+				                "subNVues":[{  
+				                    "id": "concat1", // 唯一标识  
+				                    "path": "pages/nvue1/nvue1", // 页面路径  
+				                    /*"type": "popup",  这里不需要*/  
+				                    "style": {  
+				                        "position": "absolute",  
+				                        "dock": "right",  
+				                        "width": "500rpx",  
+				                        "height": "400rpx",  
+										"top":"400rpx",
+										"left":"125rpx",
+				                        "background": "transparent"  
+				                    }  
+				                }]  
+				            }  
+            }
+            
+        }
+        ,{
+            "path" : "pages/xinlizixun1/xinlizixun1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+				               "subNVues":[{  
+				                   "id": "concat2", // 唯一标识  
+				                   "path": "pages/nvue2/nvue2", // 页面路径  
+				                   /*"type": "popup",  这里不需要*/  
+				                   "style": {  
+				                       "position": "absolute",  
+				                       "dock": "right",  
+				                       "width": "600rpx",  
+				                       "height": "780rpx",  
+										"top":"200rpx",
+										"left":"75rpx",
+				                       "background": "transparent"  
+				                   }  
+				               }]  
+				           }  
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhuanxiangzixun/zhuanxiangzixun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/faxiefangjian/faxiefangjian",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/nvue1/nvue1",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/nvue2/nvue2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhengzhuangzipingliangbiao/zhengzhuangzipingliangbiao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/xinlixiaozhishi/xinlixiaozhishi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/zhishi/zhishi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/dajiaoshi/dajiaoshi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chengweizixunshi/chengweizixunshi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shitingxiaowu/shitingxiaowu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/yindao/yindao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "uni-app",
+			"navigationBarBackgroundColor": "#F8F8F8",
+			"backgroundColor": "#F8F8F8",
+			"navigationStyle":"custom"
+		},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}	
+}
